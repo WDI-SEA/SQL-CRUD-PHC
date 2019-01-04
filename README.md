@@ -11,19 +11,27 @@ This lab will be similar to the app we built in the [SQL-CRUD-DINOS lab](https:/
 [
   {
     type:"giant beaver",
-    img_url:"http://www.beringia.com/sites/default/files/Giant-Beaver-banner.jpg"
+    img_url:"http://www.beringia.com/sites/default/files/Giant-Beaver-banner.jpg",
+    createdAt: new Date(),
+    updatedAt: new Date()
   },
   {
     type:"mastodon",
-    img_url:"https://cdn-images-1.medium.com/max/1200/1*a2VvYsKGApR-E1SnT5O7yQ.jpeg"
+    img_url:"https://cdn-images-1.medium.com/max/1200/1*a2VvYsKGApR-E1SnT5O7yQ.jpeg",
+    createdAt: new Date(),
+    updatedAt: new Date()
   },
   {
     type:"saber-toothed salmon",
-    img_url:"https://cottagelife.com/wp-content/uploads/2014/11/Oncorhynchus_rastrosus.jpg"
+    img_url:"https://cottagelife.com/wp-content/uploads/2014/11/Oncorhynchus_rastrosus.jpg",
+    createdAt: new Date(),
+    updatedAt: new Date()
   },
   {
     type:"megalonyx",
-    img_url:"https://animalgeography.files.wordpress.com/2018/08/sloth-banner-e1535192925361.jpg?w=584&h=325"
+    img_url:"https://animalgeography.files.wordpress.com/2018/08/sloth-banner-e1535192925361.jpg?w=584&h=325",
+    createdAt: new Date(),
+    updatedAt: new Date()
   }
 ]
 ```
